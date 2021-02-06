@@ -1,0 +1,57 @@
+:root {
+  --primary-dark: #292b32;
+  --primary: #333a4a;
+  --primary-light: #565e73;
+  --secondary: #e38c41;
+  --text-light: #ffffff;
+  --text-dark: #000000;
+}
+
+.Primary {
+  background-color: var(--primary);
+  color: var(--text-light);
+}
+
+
+.Primary-light {
+  background-color: var(--primary-light);
+  color: var(--text-light);
+}
+
+
+.Secondary {
+  background-color: var(--secondary);
+  color: var(--text-light);
+}
+
+.Primary-inverted {
+  background-color: var(--text-light);
+  color: var(--primary);
+}
+
+html {
+  font-size: 10px;
+  /*font-family: "Roboto", serif;*/
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--text-light);
+  margin: 0;
+}
+
+p {
+  color: var(--text-light);
+}
+
+h1 {
+  color: var(--secondary);
+}
+
+h2 {
+  color: var(--secondary);
+}
+
+h3 {
+  color: var(--secondary);
+}
